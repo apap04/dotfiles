@@ -1,0 +1,15 @@
+[user]
+	name = Andreas Papacharalampous
+	email = me@apap04.com
+	signingkey = FB92215AF3CD90E4
+[core]
+	autocrlf = false
+	filemode = false
+	fscache = false
+[color]
+	ui = true
+[gitreview]
+	remote = origin
+	username = apap04
+[http]
+	cookiefile = /home/andreas/.gitcookies
