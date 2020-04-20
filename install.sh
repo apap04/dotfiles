@@ -20,7 +20,7 @@ sudo snap install spotify
 sudo snap install authy --beta
 sudo snap install telegram-desktop
 sudo snap install discord
-sudo snap install vscode --classic
+sudo snap install code --classic
 sudo apt-get install python-mysqldb
 sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
