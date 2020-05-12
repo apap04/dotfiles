@@ -1,5 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+export PATH=~/google/depot_tools:$PATH
+export PATH="$PATH:$HOME/bin"
+alias py="python3"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/andreas/.oh-my-zsh"

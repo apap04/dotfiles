@@ -1,6 +1,7 @@
 [user]
 	name = Andreas Papacharalampous
-	email = me@apap04.com
+	email = andreas@apap04.com
+	signingkey = FB92215AF3CD90E4
 [core]
 	autocrlf = false
 	filemode = false
