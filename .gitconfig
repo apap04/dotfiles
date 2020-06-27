@@ -13,3 +13,5 @@
 	username = apap04
 [http]
 	cookiefile = /home/andreas/.gitcookies
+[oh-my-zsh]
+	hide-status = 1

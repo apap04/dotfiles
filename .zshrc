@@ -1,11 +1,17 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 export PATH=~/google/depot_tools:$PATH
 export PATH="$PATH:$HOME/bin"
 alias py="python3"
+export PATH="$MY_ROOT"/.jiri_root/bin:$PATH
+export MY_ROOT=$HOME/myroot
+export FLASK_APP=index.py
+export FLASK_ENV=development
+export PATH=~/pycharm/bin:$PATH
+export PATH=$HOME/pycharm/bin:$PATH
+alias pych="pycharm.sh"
 
-# Path to your oh-my-zsh installation.
+#Path to your oh-my-zsh installation.
 export ZSH="/home/andreas/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
