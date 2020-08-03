@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=~/google/depot_tools:$PATH
@@ -10,6 +17,10 @@ export FLASK_ENV=development
 export PATH=~/pycharm/bin:$PATH
 export PATH=$HOME/pycharm/bin:$PATH
 alias pych="pycharm.sh"
+export SPICETIFY_INSTALL="/home/andreas/spicetify-cli"
+export PATH="$SPICETIFY_INSTALL:$PATH"
+export python="/usr/bin/python2.7"
+
 
 #Path to your oh-my-zsh installation.
 export ZSH="/home/andreas/.oh-my-zsh"
@@ -18,7 +29,7 @@ export ZSH="/home/andreas/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="frisk"
+ZSH_THEME="powerlevel10k/powerlevel10k" # github.com/romkatv/powerlevel10k
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -107,3 +118,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias lah="ls -lah"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

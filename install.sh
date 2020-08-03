@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get install git
 sudo apt-get install python3 python3-pip
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo apt-get install nodejs
+sudo apt-get install nodejs npm
 sudo apt-get install pavucontrol
 sudo apt install dnsmasq hostapd bc build-essential dkms curl
 echo additional stuffe
