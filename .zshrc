@@ -7,7 +7,7 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=~/google/depot_tools:$PATH
+export PATH=~/goog/depot_tools:$PATH
 export PATH="$PATH:$HOME/bin"
 alias py="python3"
 export PATH="$MY_ROOT"/.jiri_root/bin:$PATH
@@ -19,8 +19,9 @@ export PATH=$HOME/pycharm/bin:$PATH
 alias pych="pycharm.sh"
 export SPICETIFY_INSTALL="/home/andreas/spicetify-cli"
 export PATH="$SPICETIFY_INSTALL:$PATH"
-export python="/usr/bin/python2.7"
-
+#alias python="/usr/bin/python2.7"
+alias lunar=~/Lunar/Lunar\\\ Client-2.1.6.AppImage
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 #Path to your oh-my-zsh installation.
 export ZSH="/home/andreas/.oh-my-zsh"
@@ -106,6 +107,8 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
+
+export EDITOR="vim"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
