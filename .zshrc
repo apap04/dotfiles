@@ -12,16 +12,12 @@ export PATH="$PATH:$HOME/bin"
 alias py="python3"
 export PATH="$MY_ROOT"/.jiri_root/bin:$PATH
 export MY_ROOT=$HOME/myroot
-export FLASK_APP=index.py
-export FLASK_ENV=development
 export PATH=~/pycharm/bin:$PATH
 export PATH=$HOME/pycharm/bin:$PATH
 alias pych="pycharm.sh"
 export SPICETIFY_INSTALL="/home/andreas/spicetify-cli"
 export PATH="$SPICETIFY_INSTALL:$PATH"
-#alias python="/usr/bin/python2.7"
-alias lunar=~/Lunar/Lunar\\\ Client-2.1.6.AppImage
-export QT_QPA_PLATFORMTHEME=qt5ct
+export PORT="8080"
 
 #Path to your oh-my-zsh installation.
 export ZSH="/home/andreas/.oh-my-zsh"
