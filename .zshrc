@@ -18,6 +18,7 @@ alias pych="pycharm.sh"
 export SPICETIFY_INSTALL="/home/andreas/spicetify-cli"
 export PATH="$SPICETIFY_INSTALL:$PATH"
 export PORT="8080"
+export PATH=$PATH:/usr/local/go/bin
 
 #Path to your oh-my-zsh installation.
 export ZSH="/home/andreas/.oh-my-zsh"
