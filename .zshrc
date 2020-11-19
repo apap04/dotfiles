@@ -9,16 +9,11 @@ fi
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=~/goog/depot_tools:$PATH
 export PATH="$PATH:$HOME/bin"
-alias py="python3"
 export PATH="$MY_ROOT"/.jiri_root/bin:$PATH
 export MY_ROOT=$HOME/myroot
-export PATH=~/pycharm/bin:$PATH
-export PATH=$HOME/pycharm/bin:$PATH
-alias pych="pycharm.sh"
-export SPICETIFY_INSTALL="/home/andreas/spicetify-cli"
 export PATH="$SPICETIFY_INSTALL:$PATH"
-export PORT="8080"
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/bin/go/bin
+export PATH=$PATH:~/spicetify-cli
 
 #Path to your oh-my-zsh installation.
 export ZSH="/home/andreas/.oh-my-zsh"
@@ -87,7 +82,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vscode vagrant github gcloud)
+plugins=(git vscode vagrant github gcloud zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -119,6 +114,9 @@ export EDITOR="vim"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias lah="ls -lah"
+alias vim="nvim"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
